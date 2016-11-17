@@ -52,13 +52,8 @@
 <section class="host-reservation">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-push-4">
-			</div>
-			<div class="col-md-4 col-md-pull-8 sidebar">
-				<a href="#" class="gold-button mrgT10" style="fn'>FREQUENTLY ASKED QUESTIONS</a>
-				<a href="#" class="border-button mrgT10">safety</a>
-				<a href="#" class="border-button mrgT10">contact us</a>				
-			</div>
+			<div class="col-md-8 col-md-push-4"></div>
+			<div class="col-md-4 col-md-pull-8"></div>
 		</div>
 	</div>
 </section>
