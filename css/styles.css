@@ -327,6 +327,28 @@ a:hover .host-title::before {
 	line-height: 30px;
 	color: #444;
 }
+.border-button.active {
+	width: 100%;
+	max-width: 360px;
+	text-align: center;
+	border: 2px solid #A37E3F;
+	border-radius: 5px;
+	padding: 10px;
+	display: inline-block;
+	color: #fff;
+	background: #A37E3F;
+	font-family: gothamB;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 30px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+.border-button.active:hover {
+	color: #fff;	
+	background: #b69459;	
+	border: 2px solid #b69459;
+}
 .border-button {
 	width: 100%;
 	max-width: 360px;
@@ -956,4 +978,87 @@ select {
     border: 1px solid #000;
     color: #fff;
 	cursor: pointer;
+}
+.sidebar {
+	padding-right: 60px;
+}
+.main-content {
+	padding-left: 50px;
+	border-left: 1px solid #d8d8d8;
+}
+.accordion-item {
+	height: 70px;
+	height: auto;
+	width: 100%;
+	float: left;
+	display: block;
+	position: relative;
+	border-top: 1px solid #d8d8d8;
+	background: url(../images/down-arrow-faq.png) no-repeat right top;
+}
+.accordion-item.active {
+	background: url(../images/gold-arrow-faq.png) no-repeat right top;
+}
+.accordion-item-title {
+	font-size: 18px;
+	color: #000;
+	line-height: 70px;
+	font-family: gothamB;
+	width: 100%;
+	float: left;
+	cursor: pointer;
+}
+.accordion-item.active .accordion-item-title {
+	color: #a37e3f;
+}
+.accordion-item-desc {
+	font-size: 18px;
+	color: #000;
+	line-height: 25px;
+	font-family: gothamR;
+	width: 100%;
+	float: left;
+	padding: 10px 0 25px 0;
+	display: none;
+}
+.sidebar-info {
+	border-top: 1px solid #d8d8d8;
+	margin-top: 40px;
+	padding-top: 30px;
+	font-size: 15px;
+	color: #000;
+	line-height: 25px;
+	font-family: gothamL;
+	position: relative;
+}
+.sidebar-info a{
+	position: relative;
+}
+.sidebar-info a:hover{
+	opacity: 0.4;
+}
+.sidebar-info a:before{
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #d4d4d4;
+}
+.sidebar-info-title {
+	display: block;
+	font-size: 20px;
+	font-family: gothamB;
+}
+
+.safety-item {
+	margin-bottom: 30px;
+	width: 100%;
+	float: left;
+}
+.safety-item h4 {
+	font-size: 20px;
+	font-family: gothamB;
+	color: #a37e3f;
 }

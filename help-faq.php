@@ -52,8 +52,57 @@
 <section class="host-reservation">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 col-md-push-4"></div>
-			<div class="col-md-4 col-md-pull-8"></div>
+			<div class="col-md-8 col-md-push-4 main-content">
+				<div class="accordion-item">
+					<div class="accordion-item-title">What happens once I make the reservation?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">Will there be other guests at the event that I booked?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">WhatCan I contact Chefs Home Table to find out the address?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">Can I cancel or change an event?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">What guarantees are there for the guests of your events?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">I have a food allergy/intolerance: what should I do?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">Are payments through the site secure?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+				<div class="accordion-item">
+					<div class="accordion-item-title">At what time should I arrive for dinner or lunch?</div>
+					<div class="accordion-item-desc">The flavors of the Chefs Home Table (lunch and dinner) events are private. You and your guests will be the only ones present. In regards to the courses, there may be other people with you, up to the maximum number of people permitted for each lesson of the course in question.</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-md-pull-8 sidebar">
+				<a href="help-faq.php" class="border-button active mrgT10">FREQUENTLY ASKED QUESTIONS</a>
+				<a href="help-safety.php" class="border-button mrgT10">safety</a>
+				<a href="contact.php" class="border-button mrgT10">contact us</a>				
+				<div class="sidebar-info">
+					<span class="sidebar-info-title">Chefs Home Table:</span>
+					Chefs Home Table, LLC<br>
+					26 9th Street<br>
+					Hermosa Beach, CA 90254
+					<br><br>
+					<span class="sidebar-info-title">323-788-2341</span>
+					<a href="mailto:info@chefshometable.com">info@chefshometable.com</a>
+					<br><br>
+					<b>Business Hours:</b><br>
+					10 am to 12 pm / 4 pm to 6 pm
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
@@ -66,9 +115,13 @@
 <script src="js/custom.js"></script>
 <script>
 $(document).ready(function(){
-	$('.attach').hover(function(){
-		$(this).addClass('.hover');
-	})
+	$('.accordion-item').click(function(){
+		var dete = $(this).children().next();
+		$('.accordion-item').not(this).removeClass('active');
+		$(this).toggleClass('active');
+		$('.accordion-item-desc').not(dete).slideUp();
+		$(this).children().next().slideToggle();
+	});	
 });
 </script>
 </body>
