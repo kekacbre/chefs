@@ -1,3 +1,4 @@
+
 .inner-menu .navbar-brand > img {
     margin-top: 15px;
     width: 150px;
@@ -33,7 +34,7 @@
 	object-fit: cover;
 	min-height: 400px;
 }
-.gold { color: #a37e3f; }
+.gold { color: #a37e3f !important; }
 .gold-bg { background-color: #a37e3f; }
 
 .full-img {
@@ -53,6 +54,16 @@
 	border-bottom: 1px solid #d8d8d8;
 	border-top: 1px solid #d8d8d8;
 }
+.header.small-header{
+	padding: 30px 0;
+}
+.sub-header {
+	text-align: left;
+	border-bottom: 4px solid #f5f5f5;
+	border-top: 1px solid #d8d8d8;
+	padding: 25px 0;
+}
+
 .h2 {
 	font-size: 35px;
 }
@@ -205,6 +216,40 @@ body.inner-menu {
     width: 43px;
 }
 .nav-search-button:hover {
+	opacity: 0.7;
+}
+
+.blog-search {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 0px;
+	width: 100%;
+	padding-left: 15px;
+	transition: all 1.2s ease-in-out;
+}
+.blog-search-input {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d8d8d8;
+    font-size: 16px;
+	font-family: gothamL;
+    height: 51px;
+    line-height: 49px;
+    min-width: 250px;
+	width: 100%;
+    padding: 0 0 0 10px;
+}
+.blog-search-button {
+	transition: all 0.25s ease-in-out;
+    background: #000 url("../images/search-icon-blog.png") no-repeat scroll center center;
+    border: medium none;
+    height: 51px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 51px;
+}
+.blog-search-button:hover {
 	opacity: 0.7;
 }
 
@@ -394,6 +439,7 @@ a:hover .host-title::before {
 	text-align: center;
 	padding: 20px;
 	display: block;
+	margin-top: 30px;
 	box-shadow: 0 0 0 0px #fff,0 0 0 0px #000;
 }
 .community-item-upper-title {
@@ -1061,4 +1107,136 @@ select {
 	font-size: 20px;
 	font-family: gothamB;
 	color: #a37e3f;
+}
+.contact-title {
+	font-family: gothamB;
+	font-size: 20px;
+}
+.contact-form.form-horizontal .control-label {
+    text-align: left;
+	font-size: 18px;
+	font-family: gothamL;
+	font-weight: normal;
+}
+.contact-form {
+	padding: 40px 0;
+    text-align: left;
+}
+.contact-form.form-horizontal input {
+    text-align: left;
+	font-size: 15px;
+}
+.thank-you-panel {
+    left: 50%;
+    max-width: 700px;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+}
+.categories {
+	border-right: 1px solid #f5f5f5;
+}
+.categories a{
+	display: inline-block;
+	border-radius: 5px;
+	line-height: 50px;
+	color: #000;
+	font-size: 15px;
+	font-family: gothamB;
+	text-transform: uppercase;
+	padding: 0 8px;
+}
+.categories a.current{
+	background: #000;
+	color: #fff;
+	padding: 0 15px;
+}
+.categories a:hover{
+	background: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+.home-or-left > a, .home-or-right > a {
+    font-size: 15px;
+    margin: 0 20px;
+    position: relative;
+}
+.footer ul {
+    clear: both;
+    float: left;
+}
+.dropdown-menu-right {
+    left: 0% !important;
+    right: auto !important;
+    width: 80%;
+    margin: 0 10%;
+}
+.dropdown-menu-right::before {
+    border-bottom: 0px solid #000;
+}
+body.inner-menu {
+    padding-top: 66px;
+}
+.main-content {
+    padding-left: 15px;
+}	
+.navbar-brand {
+    left: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    top: 0;
+    transition: all 0.25s ease-in-out 0s;
+    width: 100px;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+    text-align: center;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-brand.hidden-xs.hidden-sm {
+	display: none;
+}
+.inner-menu .navbar-nav > li {
+    margin-top: 15px;
+    width: 100%;
+}
+.navbar-toggle {
+    background-color: #000;
+    background-image: none;
+    border: medium none !important;
+    border-radius: 0 !important;
+    float: right;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-top: 8px;
+    padding: 18px 20px;
+    position: relative;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #333;
+}
+
+.nav {
+    border-bottom: 5px solid #a37e3f;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.nav > li > a {
+    display: inline-block;
+}
+.navbar-nav > li > a {
+    line-height: 20px;
+    position: relative;
+}
 }

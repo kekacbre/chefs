@@ -55,6 +55,49 @@
 		<div class="row">
 			<div class="col-md-8 col-md-push-4 main-content">
 				<div class="contact-title">Feel Free to Contact Chefs Home Table Today!</div>
+				<form class="form-horizontal contact-form" action="contact-thank-you.php">
+					<div class="form-group">
+						<label for="inputEmail3" class="col-sm-3 control-label">Full Name *</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="inputEmail3">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputEmail4" class="col-sm-3 control-label">Email Address *</label>
+						<div class="col-sm-9">
+							<input type="email" class="form-control" id="inputEmail4">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="phone" class="col-sm-3 control-label">Phone #</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="phone">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="subject" class="col-sm-3 control-label">Subject</label>
+						<div class="col-sm-9">
+							<input type="text" class="form-control" id="subject">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="phone" class="col-sm-3 control-label">Message *</label>
+						<div class="col-sm-9">
+							<textarea name="message" class="form-control" rows="3"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="subject" class="col-sm-3 control-label">&nbsp;</label>
+						<div class="col-sm-9">
+							<p class="bold mrgB30 mrgT30">* - Required Field</p>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-3 col-sm-9">
+							<button type="submit" class="black-button" style="max-width: 300px;">Sign in</button>
+						</div>
+					</div>
+				</form>
 			</div>
 			<div class="col-md-4 col-md-pull-8 sidebar">
 				<a href="help-faq.php" class="border-button mrgT10">FREQUENTLY ASKED QUESTIONS</a>
