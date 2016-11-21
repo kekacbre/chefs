@@ -46,8 +46,8 @@
 				<div class="col-md-2-5 col-sm-3">
 					<ul>
 						<li>Policies</li>
-						<li><a href="">Privacy</a></li>
-						<li><a href="">Terms & Conditions</a></li>
+						<li><a href="privacy.php">Privacy</a></li>
+						<li><a href="terms-conditions.php">Terms & Conditions</a></li>
 					</ul>
 				</div>
 				<div class="col-md-2-5">

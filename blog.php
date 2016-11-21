@@ -71,13 +71,13 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-home-1.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-home-1.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">LEARNING CENTER</div>
 					<div class="community-item-title">The love of cooking, <br>a life-long story</div>
 				</a>
 			</div>
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-home-2.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-home-2.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">SECRET RECIPES</div>
 					<div class="community-item-title">Secret Pasta Recipe<br> from Lombardia</div>
 				</a>
@@ -101,19 +101,19 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-5.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-5.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">LEARNING CENTER</div>
 					<div class="community-item-title">The love of cooking, <br>a life-long story</div>
 				</a>
 			</div>
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-6.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-6.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">SECRET RECIPES</div>
 					<div class="community-item-title">Secret Pasta Recipe<br> from Lombardia</div>
 				</a>
 			</div>
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-8.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-8.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">LEARNING CENTER</div>
 					<div class="community-item-title">The love of cooking, <br>a life-long story</div>
 				</a>
@@ -128,7 +128,7 @@
 				</div>
 			</div>
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-9.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-9.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">SECRET RECIPES</div>
 					<div class="community-item-title">Secret Pasta Recipe<br> from Lombardia</div>
 				</a>
@@ -136,13 +136,13 @@
 			<!-------------- loaded-posts je samo placeholder za ajax - ovo je primer ----------------->
 			<div class="loaded-posts" style="display: none">
 				<div class="col-md-4">
-					<a href="#3" class="community-item" style="background: url(images/community-home-1.jpg) no-repeat center center / cover;">
+					<a href="blog-single.php" class="community-item" style="background: url(images/community-home-1.jpg) no-repeat center center / cover;">
 						<div class="community-item-upper-title">LEARNING CENTER</div>
 						<div class="community-item-title">The love of cooking, <br>a life-long story</div>
 					</a>
 				</div>
 				<div class="col-md-4">
-					<a href="#3" class="community-item" style="background: url(images/community-home-2.jpg) no-repeat center center / cover;">
+					<a href="blog-single.php" class="community-item" style="background: url(images/community-home-2.jpg) no-repeat center center / cover;">
 						<div class="community-item-upper-title">SECRET RECIPES</div>
 						<div class="community-item-title">Secret Pasta Recipe<br> from Lombardia</div>
 					</a>

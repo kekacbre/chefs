@@ -1,6 +1,7 @@
 .borderL {border-left: 1px solid #e0e0d8;}
 .borderR {border-right: 1px solid #e0e0d8;}
 .borderB {border-bottom: 1px solid #d8d8d8;}
+.borderT {border-top: 1px solid #d8d8d8;}
 
 .padA0 {padding:0px !important}
 .padA5{padding:5px !important}
@@ -12,11 +13,13 @@
 .padB10{padding-bottom:10px !important}
 .padB20{padding-bottom:20px !important}
 .padB30{padding-bottom:30px !important}
+.padB50{padding-bottom:50px !important}
 .padB60{padding-bottom:60px !important}
 .padT0 {padding-top: 0px !important}
 .padT10{padding-top:10px !important}
 .padT20{padding-top:20px !important}
 .padT30{padding-top:30px !important}
+.padT50{padding-top:50px !important}
 .padT60{padding-top:60px !important}
 .padR0 {padding-right: 0px !important}
 .padR10{padding-right:10px !important}
@@ -1084,7 +1087,7 @@ html {
 }
 body {
 	font-family: "gothamR", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.42857143;
 	color: #333;
 	background-color: #fff
