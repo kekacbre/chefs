@@ -137,7 +137,7 @@
 		<div class="row">
 			<h2 class="h2 text-center gold"><b>The New Way to Taste in Town</b></h2>
 			<p>Chefs Home Table hosts are ready to welcome you into their homes. These exceptional cooks are carefully selected by experts to ensure the authenticity of their offered Taste Experience and to encourage awareness of worldwide recipes. Chefs Home Table hosts offers a restaurant within their homes, cooking courses, cooking shows and events planned in your own home.</p>
-			<a href="about.html" class="border-button">Read More About Us</a>
+			<a href="about.php" class="border-button">Read More About Us</a>
 		</div>
 	</div>
 </section>
@@ -147,7 +147,7 @@
 		<div class="row">
 			<h2 class="h2 text-center community-main-title"><b>Our Community</b></h2>
 			<div class="col-md-4">
-				<a href="#3" class="community-item" style="background: url(images/community-home-1.jpg) no-repeat center center / cover;">
+				<a href="blog-single.php" class="community-item" style="background: url(images/community-home-1.jpg) no-repeat center center / cover;">
 					<div class="community-item-upper-title">LEARNING CENTER</div>
 					<div class="community-item-title">The love of cooking, <br>a life-long story</div>
 				</a>
@@ -163,7 +163,7 @@
 					<div class="community-item-instagram">
 						<div class="community-item-instagram-desc">ChefsHomeTable, enjoy an authentic local meal, discover traditional, regional dishes from the area.</div>
 						<div class="community-item-instagram-time">2 hours ago</div>
-						<a href="#3" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
+						<a href="http://instagram.com" target="_blank" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
 					</div>					
 				</div>
 			</div>

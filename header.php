@@ -24,9 +24,9 @@
 			<li class="navbar-right dropdown">
 				<a href="#" class="my-acc dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Welcome Brandon</a>
 				<ul class="dropdown-menu dropdown-menu-right">
-					<li><a href="#">Profile</a></li>
+					<li><a href="myacc-user-profile">Profile</a></li>
 					<li><a href="#">My Listings</a></li>
-					<li><a href="#">My Reservations</a></li>
+					<li><a href="myacc-user-reservation">My Reservations</a></li>
 					<li><a href="#">Reviews</a></li>
 					<li><a href="#">Logout</a></li>
 					<li><a href="#" class="gold-button-menu">ADD NEW LISTING</a></li>

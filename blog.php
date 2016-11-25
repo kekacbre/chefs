@@ -87,7 +87,7 @@
 					<div class="community-item-instagram">
 						<div class="community-item-instagram-desc">ChefsHomeTable, enjoy an authentic local meal, discover traditional, regional dishes from the area.</div>
 						<div class="community-item-instagram-time">2 hours ago</div>
-						<a href="#3" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
+						<a href="http://instagram.com" target="_blank" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
 					</div>					
 				</div>
 			</div>
@@ -96,7 +96,7 @@
 					<div class="community-item-instagram">
 						<div class="community-item-instagram-desc">ChefsHomeTable, enjoy an authentic local meal, discover traditional, regional dishes from the area.</div>
 						<div class="community-item-instagram-time">2 hours ago</div>
-						<a href="#3" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
+						<a href="http://instagram.com" target="_blank" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
 					</div>					
 				</div>
 			</div>
@@ -123,7 +123,7 @@
 					<div class="community-item-instagram">
 						<div class="community-item-instagram-desc">ChefsHomeTable, enjoy an authentic local meal, discover traditional, regional dishes from the area.</div>
 						<div class="community-item-instagram-time">2 hours ago</div>
-						<a href="#3" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
+						<a href="http://instagram.com" target="_blank" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
 					</div>					
 				</div>
 			</div>
@@ -152,7 +152,7 @@
 						<div class="community-item-instagram">
 							<div class="community-item-instagram-desc">ChefsHomeTable, enjoy an authentic local meal, discover traditional, regional dishes from the area.</div>
 							<div class="community-item-instagram-time">2 hours ago</div>
-							<a href="#3" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
+							<a href="http://instagram.com" target="_blank" class="community-item-instagram-link">Instagram @ChefsHomeTable</a>
 						</div>					
 					</div>
 				</div>				

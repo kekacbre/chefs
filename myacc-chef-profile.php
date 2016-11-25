@@ -47,8 +47,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 categories">
-				<a href="myacc-user-profile.php" class="current">PROFILE</a>
-				<a href="myacc-user-reservation.php">MY RESERVATIONS</a>
+				<a href="myacc-chef-profile.php" class="current">PROFILE</a>
+				<a href="myacc-chef-reservation.php">MY LISTINGS</a>
+				<a href="myacc-chef-reservation.php">MY RESERVATIONS</a>
+				<a href="myacc-chef-reservation.php">REVIEWS</a>
 			</div>
 		</div>
 	</div>
@@ -61,6 +63,21 @@
 					<div class="career-item">
 						<div class="career-header-small">
 							<div class="career-title">My Information</div>
+						</div>
+						<div class="popup-body-bottom">
+							<div class="row padA30 padB0">
+								<div class="col-md-4 text-center"><img src="images/chef.jpg" alt="image" class="image" /></div>
+								<div class="col-md-4 padT30 button-hover" style="position: relative;"><input type="file" class="custom-input-hidden"/><a href="#3" class="border-button">Change photo</a></div>
+								<div class="col-md-4 padT30"><a href="#3" class="border-button">Remove photo</a></div>
+							</div>
+						</div>
+						<div class="popup-body-bottom">
+							<div class="row padA30 padB0">
+								<div class="col-md-12">
+									<div class="col-md-4"><label for="name" class="control-label padT20">Experience</label></div>
+									<div class="col-md-8 padT10"><input type="text" class="form-control" id="name" value="ABC Restaurant"></div>
+								</div>
+							</div>
 						</div>
 						<div class="row career-body">
 							<div class="col-md-12">

@@ -32,6 +32,10 @@
 <link href="css/radio.css" rel="stylesheet" />
 <link rel="shortcut icon" href="images/fav.png" />
 
+<link rel="stylesheet" href="css/star-rating.css" media="all" type="text/css"/>
+<link rel="stylesheet" href="css/theme.css" media="all" type="text/css"/>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -89,7 +93,29 @@
 					<div class="table-status">Ended</div>
 					<div class="table-action">
 						<a href="#3" class="border-button-small mrgT0">details</a>
-						<a href="#3" class="border-button-small mrgT10">rate</a>
+						<a href="#3" class="border-button-small mrgT10 rate-button" onclick="$(this).parent().next().fadeIn();$('#log-overlay').fadeIn();">rate</a>
+					</div>
+					<div class="review-box popupp">
+						<span class="close">×</span>
+						<div class="popup-title gold">Submit Your Review</div>
+						<form action="myacc-user-reservation.php" method="post">
+							<div class="popup-body col-md-12">
+								<div class="col-md-6 review-small-title">YOUR RATING:</div>
+								<div class="col-md-6 text-right">
+									<input type="text" class="kv-fa rating-loading" value="0" data-size="xs" title="">
+								</div>
+							</div>
+							<div class="popup-body col-md-12">
+								<div class="col-md-12">
+									<textarea class="review-area" placeholder="Your Review..."></textarea>
+								</div>
+							</div>
+							<div class="popup-body col-md-12 no-border">
+								<div class="col-md-12">
+									<button type="submit" class="black-button">SUBMIT</button>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 				<div class="table-row borderB">
@@ -100,7 +126,29 @@
 					<div class="table-status">Ended</div>
 					<div class="table-action">
 						<a href="#3" class="border-button-small mrgT0">details</a>
-						<a href="#3" class="border-button-small mrgT10">rate</a>
+						<a href="#3" class="border-button-small mrgT10 rate-button" onclick="$(this).parent().next().fadeIn();$('#log-overlay').fadeIn();">rate</a>
+					</div>
+					<div class="review-box popupp">
+						<span class="close">×</span>
+						<div class="popup-title gold">Submit Your Review</div>
+						<form action="myacc-user-reservation.php" method="post">
+							<div class="popup-body col-md-12">
+								<div class="col-md-6 review-small-title">YOUR RATING:</div>
+								<div class="col-md-6 text-right">
+									<input type="text" class="kv-fa rating-loading" value="0" data-size="xs" title="">
+								</div>
+							</div>
+							<div class="popup-body col-md-12">
+								<div class="col-md-12">
+									<textarea class="review-area" placeholder="Your Review..."></textarea>
+								</div>
+							</div>
+							<div class="popup-body col-md-12 no-border">
+								<div class="col-md-12">
+									<button type="submit" class="black-button">SUBMIT</button>
+								</div>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -111,6 +159,8 @@
 <?php include('footer.php'); ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/star-rating.js" type="text/javascript"></script>
+<script src="js/theme.js" type="text/javascript"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr.js"></script>
 <script src="js/custom.js"></script>
@@ -121,5 +171,18 @@ $(document).ready(function(){
 	})
 });
 </script>
+<script>
+$(document).on('ready', function () {
+	$('.kv-fa').rating({
+		theme: 'krajee-fa',
+		filledStar: '<i class="fa fa-star"></i>',
+		emptyStar: '<i class="fa fa-star-o"></i>',
+		showClear:false,
+		showCaption:false,
+		step: 1
+	});
+});
+</script>
+
 </body>
 </html>
