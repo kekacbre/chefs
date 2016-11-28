@@ -1,4 +1,3 @@
-
 .inner-menu .navbar-brand > img {
     margin-top: 15px;
     width: 150px;
@@ -260,6 +259,13 @@ p.info {
 	font-weight: normal;
 	font-family: gothamL;
 	line-height: 27px;
+	color: #000;
+}
+p.infoo {
+	font-size: 15px;
+	font-weight: normal;
+	font-family: gothamL;
+	line-height: normal;
 	color: #000;
 }
 .host-locations {
@@ -1424,7 +1430,41 @@ select {
     padding: 25px 0;
     text-transform: uppercase;
 }
-
+.user-details-panel img{
+	margin-right: 15px;
+}
+.user-details-panel {
+	margin-top: 50px;
+	padding: 55px 30px;
+	border: 1px solid #d8d8d8;
+	background: #fff;
+	font-size: 15px;
+	font-family: gothamB;
+}
+.user-name {
+	font-size: 30px;
+}
+.user-name {
+	font-size: 30px;
+	margin: 10px 0 5px;
+}
+.user-name2 {
+	font-size: 25px;
+	margin: 7px 0 5px;
+	color: #A37E3F;
+	font-family: gothamB;
+}
+.user-panel {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	padding: 35px 30px;
+}
+.user-panel-no-top {
+	background: #fff;
+	border: 1px solid #d8d8d8;
+	padding: 35px 30px;
+	border-top: none;
+}
 
 
 
