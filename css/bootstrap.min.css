@@ -1,7 +1,18 @@
-.borderL {border-left: 1px solid #e0e0d8;}
-.borderR {border-right: 1px solid #e0e0d8;}
-.borderB {border-bottom: 1px solid #d8d8d8;}
-.borderT {border-top: 1px solid #d8d8d8;}
+.flexx {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 200px;
+}
+.font15{
+	font-size: 15px !important;
+}
+.borderA {border: 1px solid #e0e0d8 !important;}
+.borderL {border-left: 1px solid #e0e0d8 !important;}
+.borderR {border-right: 1px solid #e0e0d8 !important;}
+.borderB {border-bottom: 1px solid #d8d8d8 !important;}
+.borderT {border-top: 1px solid #d8d8d8 !important;}
 
 .padA0 {padding:0px !important}
 .padA5{padding:5px !important}
@@ -11,6 +22,7 @@
 .padA30{padding:30px !important}
 .padB0 {padding-bottom: 0px !important}
 .padB10{padding-bottom:10px !important}
+.padB15{padding-bottom:15px !important}
 .padB20{padding-bottom:20px !important}
 .padB30{padding-bottom:30px !important}
 .padB50{padding-bottom:50px !important}
@@ -58,6 +70,7 @@
 .no-margin {margin:0 !important}
 .no-padding {padding:0 !important}
 .no-border {border: none !important}
+.white-bg {background: #fff;}
 .gray-section {
 	background: #f5f5f5;
 }
@@ -1256,7 +1269,16 @@ p {
 	text-transform: capitalize
 }
 .text-muted {
-	color: #777
+	color: #999
+}
+.text-paid {
+	color: #999
+}
+.text-pending {
+	color: #000
+}
+.text-open {
+	color: #A37E3F
 }
 .text-primary {
 	color: #337ab7

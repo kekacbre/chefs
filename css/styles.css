@@ -1,3 +1,4 @@
+
 .inner-menu .navbar-brand > img {
     margin-top: 15px;
     width: 150px;
@@ -353,6 +354,13 @@ a:hover .host-title::before {
 	line-height: 35px;
 	padding: 0 20px;
 	height: 150px;
+}
+.how-desc-small {
+	margin-bottom: 15px;
+	font-size: 16px;
+	line-height: 35px;
+	padding: 0 20px;
+	height: 110px;
 }
 .how-number {
     background: #d9d9d9 none repeat scroll 0 0;
@@ -1364,6 +1372,12 @@ select {
 	float: left;
 	font-family: gothamB;
 }
+.chefs-listng-table .table-desc  {
+	width: 55%;
+}
+.chefs-listng-table .table-type, .chefs-listng-table .table-date, .chefs-listng-table .table-status, .chefs-listng-table .table-action  {
+	width: 15.0%;
+}
 .table-type, .table-date, .table-status, .table-action {
 	display: inline-block;
 	width: 13.5%;
@@ -1394,7 +1408,7 @@ select {
 .table-row {
     display: block;
     float: left;
-    padding: 30px 0;
+    padding: 25px 0;
     width: 100%;
 }
 .table-row .table-type, .table-row .table-date, .table-row .table-status, .table-row .table-guests, .table-row .table-action {
@@ -1446,7 +1460,7 @@ select {
 }
 .user-name {
 	font-size: 30px;
-	margin: 10px 0 5px;
+	margin: 5px 0;
 }
 .user-name2 {
 	font-size: 25px;
@@ -1465,7 +1479,116 @@ select {
 	padding: 35px 30px;
 	border-top: none;
 }
-
+.user-container {
+	padding: 20px 30px;
+	border-bottom: 1px solid #d8d8d8;
+}
+.list-status-container {
+	border-bottom: 1px solid #d8d8d8;
+	width: 100%;
+	padding: 20px 30px 0;
+}
+.list-status-row {
+	padding: 10px 0;
+	font-size: 18px;
+	font-family: gothamL;
+	border-bottom: 1px solid #d8d8d8;
+	display: inline-block;
+	width: 100%;
+}
+.list-status-row:last-of-type {
+	border: none;
+}
+.list-status-price {
+    display: inline-block;
+    padding: 14px 30px;
+    width: 100%;
+}
+.total-price {
+    display: inline-block;
+    font-family: gothamB;
+    font-size: 35px;
+    text-align: right;
+    width: 100%;
+}
+.total-info {
+    display: inline-block;
+    font-family: gothamL;
+    font-size: 15px;
+    text-align: right;
+    width: 100%;
+}
+.total-earn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+.total-earn-amount {
+	font-size: 30px;
+	text-align: center;
+}
+.earnings-list:first-of-type {
+	border-top: 1px solid #d8d8d8;
+}
+.earnings-list {
+    border-bottom: 1px solid #d8d8d8;
+    display: block;
+    float: left;
+    font-family: gothamL;
+    font-size: 18px;
+    padding: 10px 0;
+    width: 100%;
+}
+.earnings-title {
+	font-family: gothamB;
+}
+.earnings-desc {
+	text-align: right;
+	font-family: gothamL;
+}
+.events-title {
+	color: #a37e3f;
+	font-size: 30px;
+	font-family: gothamB;
+	padding: 35px 0;
+	margin: 0;
+    border-bottom: 1px solid #d8d8d8;
+}
+.review-icon {
+    align-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0) url("../images/rating-bg.png") no-repeat scroll center center;
+    color: #fff;
+    display: flex;
+    font-family: gothamB;
+	justify-content: center;
+    font-size: 28px;
+    height: 100px;
+    line-height: 12px;
+	padding-top: 5px;
+    text-align: center;
+    width: 100px;
+	float: left;
+}
+.review-icon small{
+    font-family: gothamB;
+    font-size: 10px;
+	text-transform: uppercase;
+    line-height: 12px;
+}
+.review-author {
+    color: #a37e3f;
+    font-family: gothamB;
+    font-size: 21px;
+    padding: 28px 0 29px 110px;
+}
+.review-rate {
+    display: block;
+    float: left;
+    width: 100%;
+	margin-bottom: 20px;
+}
 
 
 @media (max-width: 768px) {

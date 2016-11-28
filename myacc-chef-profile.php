@@ -48,9 +48,9 @@
 		<div class="row">
 			<div class="col-md-12 categories">
 				<a href="myacc-chef-profile.php" class="current">PROFILE</a>
-				<a href="myacc-chef-reservation.php">MY LISTINGS</a>
+				<a href="myacc-chef-listing.php">MY LISTINGS</a>
 				<a href="myacc-chef-reservation.php">MY RESERVATIONS</a>
-				<a href="myacc-chef-reservation.php">REVIEWS</a>
+				<a href="myacc-chef-reviews.php">REVIEWS</a>
 			</div>
 		</div>
 	</div>
