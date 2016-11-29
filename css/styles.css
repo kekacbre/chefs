@@ -1589,6 +1589,18 @@ select {
     width: 100%;
 	margin-bottom: 20px;
 }
+.hold-reservation {
+	font-size: 25px;
+	font-family: gothamL;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.cart-table {}
+
+
+
+
+
 
 
 @media (max-width: 768px) {
