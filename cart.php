@@ -115,19 +115,19 @@
 					</div>
 					<div class="table-qty">
 						<span class="kolicina">
-							<button class="minus" onclick="decrementValue(); return false">-</button>
-							<button class="plus" onclick="incrementValue(); return false">+</button>
+							<button class="minus" onclick="decrementValue2(); return false">-</button>
+							<button class="plus" onclick="incrementValue2(); return false">+</button>
 							<input type="text" id="qtu2" class="qtu text-center" value="0" />						
 						</span>
 						
 <script type="text/javascript">
-    function incrementValue(){
+    function incrementValue2(){
 		var value = parseInt(document.getElementById('qtu2').value, 10);
         value = isNaN(value) ? 0 : value;
         value++;
         document.getElementById('qtu2').value = value;
     }
-    function decrementValue()
+    function decrementValue2()
     {var value = parseInt(document.getElementById('qtu2').value, 10);
         value = isNaN(value) ? 0 : value;
         if(value > 0){value--};

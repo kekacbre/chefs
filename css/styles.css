@@ -1,3 +1,56 @@
+.delete-img {
+    display: inline-block;
+    line-height: normal;
+    margin: 5px 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+	cursor: pointer;
+}
+.file-input input[type="file"] {
+    height: 50px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	cursor: pointer;
+}
+.file-input > span {
+	background: #f5f5f5 url(../images/browse-button.png) no-repeat scroll right 12px;
+    border: 1px solid #d8d8d8;
+    display: block;
+    height: 50px;
+	margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+	cursor: pointer;
+}
+.file-input:hover > span {
+	background: #f5f5f5 url(../images/browse-button-hover.png) no-repeat scroll right 12px;
+    border: 1px solid #d8d8d8;
+    display: block;
+    height: 50px;
+    text-align: left;
+    width: 100%;
+}
+.browse-button {}
+.new-listing .form-control {
+    font-family: gothamB !important;
+    font-size: 15px !important;
+    font-weight: normal !important;
+}
+.add-icon {
+	background: url(../images/add-icon.png) no-repeat left center;
+	font-size: 15px;
+	font-family: gothamB;
+	padding: 5px  5px  5px 30px;
+	transition: all 0.25s ease-in-out;
+}
+.add-icon:hover {
+	opacity: 0.5;
+}
 .paypal {
 	padding-left: 75px; 
 }
@@ -72,6 +125,18 @@
 	padding: 25px 0;
 }
 
+.sub-header-big {
+	text-align: left;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	padding: 35px 0;
+}
+.scroll-menu a{
+	display: inline-block;
+	padding: 10px;
+	font-family: gothamB;
+	font-size: 15px;
+}
 .h2 {
 	font-size: 35px;
 }
@@ -927,10 +992,19 @@ hr {
 	transition: all 0.25s ease-in-out;
     width: 100%;
 }
+.black-button.right-button {
+    display: inline-block;
+    width: auto;
+}
 .black-button:hover {
     background: #333 none repeat scroll 0 0;
     color: #fff;
 }
+.black-button.big {
+    font-size: 20px;
+	display: inline-block;
+}
+
 .facebook-button {
     background: #4867aa none repeat scroll 0 0;
     border: medium none;
@@ -1379,6 +1453,9 @@ select {
 	font-weight: normal;
 	float: left;
 	font-family: gothamB;
+}
+.table-desc.desc-long  {
+	width: 50%;
 }
 .chefs-listng-table .table-desc  {
 	width: 55%;

@@ -43,8 +43,8 @@
 
 <section class="home">
 	<img src="images/home-bg.jpg" alt="home bg" class="img-responsive home-img" />
-	<div class="flexx">
-		<div class="container home-info-panel">
+	<div class="container home-info-panel">
+		<div class="flexx">
 			<div class="">
 				<h1>Savor the Taste Without the Travel</h1>
 				<p class="info">Meet your favorite chef and enjoy authentic food from all over the world</p>
