@@ -31,14 +31,17 @@
 .padT10{padding-top:10px !important}
 .padT20{padding-top:20px !important}
 .padT30{padding-top:30px !important}
+.padT40{padding-top:40px !important}
 .padT50{padding-top:50px !important}
 .padT60{padding-top:60px !important}
 .padR0 {padding-right: 0px !important}
+.padR5{padding-right: 5px !important}
 .padR10{padding-right:10px !important}
 .padR20{padding-right:20px !important}
 .padR30{padding-right:30px !important}
 .padR60{padding-right:60px !important}
 .padL0 {padding-left: 0px !important}
+.padL5{padding-left: 5px !important}
 .padL10{padding-left:10px !important}
 .padL20{padding-left:20px !important}
 .padL30{padding-left:30px !important}
@@ -2404,14 +2407,14 @@ output {
 	box-shadow: none;
 }
 .form-control::-moz-placeholder {
-color:#999;
-opacity:1
+	color:#333;
+	opacity:1
 }
 .form-control:-ms-input-placeholder {
-color:#999
+	color:#333
 }
 .form-control::-webkit-input-placeholder {
-color:#999
+	color:#333
 }
 .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
 	background-color: #eee;

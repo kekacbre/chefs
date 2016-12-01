@@ -48,6 +48,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="host-reservation">
 	<div class="container">
 		<div class="row">
