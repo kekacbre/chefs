@@ -202,7 +202,7 @@
 							<div class="font15">Discount: $0.00</div>
 						</div>
 					</div>
-					<div class="col-md-8 borderR flexx padT30 padB30">
+					<div class="col-md-8 flexx padT30 padB30">
 						<a href="#" class="black-button big" style="max-width: 500px">place order</a>
 					</div>
 				</div>

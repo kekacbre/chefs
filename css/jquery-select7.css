@@ -103,7 +103,7 @@
   left: 0;
   z-index: 1000;
   min-width: 100%;
-  padding: 35px 0 5px;
+  padding: 50px 0 5px;
   margin: 0;
   font-size: 14px;
   background-color: #fff;
@@ -160,7 +160,7 @@
 }
 .select7__option:hover {
   color: #222;
-  background-color: #f4f4f4;
+  background-color: #EBEBEB;
 }
 .select7__option_current:before {
   content: "✓ ";

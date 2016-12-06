@@ -37,6 +37,7 @@
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/jquery-select7.css">
 <link rel="stylesheet" href="css/bootstrap-datetimepicker.css">
+<link rel="stylesheet"  href="css/lightslider.css"/>
 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -49,123 +50,67 @@
 
 <?php include('header.php'); ?>
 
-<section class="sub-header">
+<section class="cart-table padB30 padT30 borderT">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-9 categories">
-				<a href="myacc-chef-profile.php" class="current">PROFILE</a>
-				<a href="myacc-chef-listing.php">MY LISTINGS</a>
-				<a href="myacc-chef-reviews.php">REVIEWS</a>
+			<div class="col-md-12">
+                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
+                    <li>
+						<div class="single-price">$78.00 <span class="per">per person</span></div>
+						<div class="slide-num">1/12</div>
+                        <img src="images/details-slider1.jpg" />
+                    </li>
+                    <li> 
+						<div class="single-price">$78.00 <span class="per">per person</span></div>
+						<div class="slide-num">1/12</div>
+                        <img src="images/details-slider1.jpg" />
+                    </li>
+                    <li> 
+						<div class="single-price">$78.00 <span class="per">per person</span></div>
+						<div class="slide-num">1/12</div>
+                        <img src="images/details-slider1.jpg" />
+                    </li>
+                </ul>
 			</div>
-			<div class="col-md-3 text-right">
-				<a href="myacc-chef-newlisting.php" class="black-button padR20 padL20 right-button">ADD A NEW LISTING</a>
+			<div class="col-md-8">
+				<h1 class="gold bold mrgT30">The pasta recipes of my grandmother</h1>
+				<p class="infoo">Sherman Oaks, Los Angeles · <a href="#reviews" class="anchorr">2 reviews</a></p>
+			</div>
+			<div class="col-md-4 padT30">
+				<div class="row">
+					<div class="col-md-4"><img src="images/details-icon1.png" alt="image" class="img-responsive" /></div>
+					<div class="col-md-4" class="persons-num">2-4</div>
+					<div class="col-md-4" class="rating-num">4.6</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="sub-header-big">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4">
-				<h1 class="h2 bold gold no-margin text-left">Create a Listing</h1>
-			</div>
-			<div class="col-md-8 text-right scroll-menu">
-				<a href="#general" class="current">GENERAL INFORMATION</a>
-				<a href="#location">LOCATION</a>
-				<a href="#menu">MENU</a>
-				<a href="#desc">DESCRIPTION</a>
-				<a href="#upload">UPLOAD MEDIA</a>
-			</div>
-		</div>
-	</div>
-</section>
-<form action="#" method="post">
-<section class="cart-table padB30 padT30 gray-section">
+<section class="cart-table padB30 padT30 gray-section borderT">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
+				<div class="career-item white-bg billing-info mrgB20">
+					<div class="career-header borderL no-border" id="general" style="padding: 15px 45px">
+						<div class="career-author">
+							<img src="images/brandon.png" alt="image" class="img-responsive pull-left mrgR20" />
+							<h2 class="mrgT10">Brandon</h2>
+							<p class="infoo">This host cooks for: ABC Restaurant</p>
+						</div>
+					</div>
+				</div>
 				<div class="career-item white-bg billing-info mrgB0">
 					<div class="career-header" id="general">
-						<div class="career-title">General Information</div>
+						<div class="career-title">Menu</div>
 					</div>
 					<div class="row career-body padT40">
 						<div class="col-md-12">
-							<div class="form-group">
-								<label for="name" class="col-sm-4 control-label">Type</label>
-								<div class="col-sm-8">
-									<select name="state" class="text-left" style="text-indent: 5px;">
-										<option>Meal / Event</option>
-										<option>state 1</option>
-										<option>state 2</option>
-										<option>state 3</option>
-										<option>state 4</option>
-									</select>
-
-								</div>
-							</div>	
-							<div class="form-group">
-								<label for="name" class="col-sm-4 control-label">Title</label>
-								<div class="col-sm-8">
-									<input class="form-control text-left" id="name" placeholder="The pasta recipes of my grandmother" type="text">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="name" class="col-sm-4 control-label">Persons (min/max)</label>
-								<div class="col-sm-8">
-									<div class="row">
-										<div class="col-md-6 padR5">
-											<select name="state" class="text-left" style="text-indent: 5px;">
-												<option>Minimum: 1</option>
-												<option>Minimum: 1</option>
-												<option>Minimum: 1</option>
-												<option>Minimum: 1</option>
-											</select>
-										</div>
-										<div class="col-md-6 padL5">
-											<select name="country" class="text-left" style="text-indent: 5px;">
-												<option>Maximum: 8</option>
-												<option>Maximum: 8</option>
-												<option>Maximum: 8</option>
-												<option>Maximum: 8</option>
-											</select>
-										</div>	
-									</div>	
-								</div>	
-							</div>	
-							<div class="form-group">
-								<label for="name" class="col-sm-4 control-label">Price (per person)</label>
-								<div class="col-sm-8">
-									<input class="form-control text-left" id="name" placeholder="$78.00" type="text">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="name" class="col-sm-4 control-label">Time</label>
-								<div class="col-sm-8">
-									<div class="row">
-										<div class="col-md-6 padR5">
-											<select name="state" class="text-left" style="text-indent: 5px;">
-												<option>HH:HH</option>
-												<option>01</option>
-												<option>02</option>
-												<option>03</option>
-												<option>04</option>
-												<option>05</option>
-											</select>
-										</div>
-										<div class="col-md-6 padL5">
-											<select name="country" class="text-left" style="text-indent: 5px;">
-												<option>MM:MM</option>
-												<option>01</option>
-												<option>02</option>
-												<option>03</option>
-												<option>04</option>
-												<option>05</option>
-											</select>
-										</div>	
-									</div>	
-								</div>	
-							</div>	
-							
+							<ul class="round-numbers">
+								<li>Anchovies marinated in olive oil, lemon and aromatic herbs.</li>
+								<li>Pasta alla amatriciana</li>
+								<li>Mondeghili with creamed potatoes and a mixed salad</li>
+								<li>Scented apple pie with cinnamon</li>
+							</ul>
 						</div>
 					</div>
 					<div class="career-header borderT" id="location">
@@ -379,6 +324,7 @@
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -388,7 +334,6 @@
 		</div>		
 	</div>
 </section>
-</form>
 
 <?php include('footer.php'); ?>
 
@@ -453,6 +398,22 @@ $(document).on('ready', function () {
         //return false;
     });	
 </script>
-
+<script src="js/lightslider.js"></script> 
+<script>
+	 $(document).ready(function() {
+		$('#image-gallery').lightSlider({
+			gallery:false,
+			item:1,
+			slideMargin: 0,
+			speed:800,
+			pause: 4000,
+			auto:true,
+			loop:true,
+			onSliderLoad: function() {
+				$('#image-gallery').removeClass('cS-hidden');
+			}  
+		});
+	});
+</script>
 </body>
 </html>

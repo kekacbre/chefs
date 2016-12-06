@@ -29,7 +29,7 @@
 					<li><a href="myacc-chef-reservation.php">My Reservations</a></li>
 					<li><a href="myacc-chef-reviews.php">Reviews</a></li>
 					<li><a href="#">Logout</a></li>
-					<li><a href="#" class="gold-button-menu">ADD NEW LISTING</a></li>
+					<li><a href="myacc-chef-newlisting.php" class="gold-button-menu">ADD NEW LISTING</a></li>
 				</ul>
 			</li>
 		</ul>
